@@ -18,12 +18,12 @@ function checkNumber(){
   if (userNumber == randomNumber){
     // output
     document.getElementById("result").innerHTML = 
-     "You have guessed the correst number!"
+     "correct number!"
   }
 
   if (userNumber != randomNumber) {
     // output
     document.getElementById("result").innerHTML =
-      "You have guessed the wrong number!"
+      "wrong number!"
   }
 }
