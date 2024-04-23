@@ -12,7 +12,7 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
 
 function checkNumber(){
   // input
-  const usernumber = parseInt(document.getElementById("user-number").value)
+  const userNumber = parseInt(document.getElementById("userNumber").value)
 
   // process
   if (userNumber == randomNumber){
@@ -21,7 +21,7 @@ function checkNumber(){
      "You have guessed the correst number!"
   }
 
-  if (userNumber != randomNumnber) {
+  if (userNumber != randomNumber) {
     // output
     document.getElementById("result").innerHTML =
       "You have guessed the wrong number!"
